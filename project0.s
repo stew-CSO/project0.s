@@ -92,3 +92,10 @@ sb $t3, 5($a0)
 sb $t4, 6($a0)
 sb $t5, 7($a0)
 sb $t6, 8($a0)
+
+li $v0, 11
+li $a0, 10
+syscall
+la $a0, id
+
+li $v0, 4
