@@ -119,3 +119,9 @@ la $a0, id
 
 li $v0, 4
 syscall 
+
+sb $t0, 0($a0)
+sb $t1, 1($a0)
+sb $t2, 2($a0)
+sb $t3, 3($a0)
+sb $t4, 4($a0)
