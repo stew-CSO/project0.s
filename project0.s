@@ -73,3 +73,10 @@ sb $t2, 5($a0)
 sb $t3, 6($a0)
 sb $t4, 7($a0)
 sb $t5, 8($a0)
+
+li $v0, 11
+li $a0, 10
+syscall
+la $a0, id
+
+li $v0, 4
