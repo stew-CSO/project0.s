@@ -118,3 +118,4 @@ syscall
 la $a0, id
 
 li $v0, 4
+syscall 
